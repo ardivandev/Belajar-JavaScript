@@ -9,3 +9,5 @@
 - Variabel
 - Type Data
 - Type Conversion
+- Operator
+- String

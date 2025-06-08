@@ -62,3 +62,28 @@ console.log("\n== ternary ==");
 let age = 18;
 let canVote = age >= 18 ? "Yes" : "No";
 console.log(canVote);
+
+// * Jawaban Tugas
+/*
+1. B
+2. C
+3. A
+4. C
+5. C
+6. B
+7. B
+8. C
+9. Tuliskan kode yang menggunakan Operator Aritmatika untuk menambahkan dua angka, mengurangkannya, dan mengalikan hasilnya dengan angka lain.
+10. Tuliskan kode yang menggunakan Operator Penugasan untuk menambahkan nilai pada variabel dan mengurangi nilai yang sama.
+*/
+
+// Nomor 9
+let num1 = 10;
+let num2 = 5;
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+
+// Nomor 10
+console.log((num1 += 10));
+console.log((num1 -= num2));
