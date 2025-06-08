@@ -41,3 +41,24 @@ console.log(testString.split(",", 3));
 console.log(testString.indexOf("jambu")); // 6 (indeks pertama dari kata jambu pertama)
 console.log(testString.lastIndexOf("jambu")); // 33 (indeks pertama dari kata jambu terakhir)
 console.log(testString.includes("jambu")); // mengecek apakah jambu ada pada variabel testString
+
+// * Jawaban Tugas
+/*
+1. B
+2. B
+3. C
+4. C
+5. C
+6. B
+7. A
+8. B
+9. Tuliskan kode untuk menggabungkan dua string 'Hello' dan 'JavaScript' menggunakan template literals.
+10. Tuliskan kode yang membagi string 'test-array-di-string' menjadi array berdasarkan '-' sebagai separator.
+*/
+
+let a = "Hello";
+let b = "JavaScript";
+console.log(`${a} ${b}`);
+
+let x = "test-array-di-string";
+console.log(x.split("-"));
