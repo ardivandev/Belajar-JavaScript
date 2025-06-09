@@ -16,3 +16,6 @@
 - Date Object
 - Array
 - Object
+- If-Else
+- Switch Case
+- Looping
