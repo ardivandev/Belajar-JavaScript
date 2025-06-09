@@ -12,3 +12,7 @@
 - Operator
 - String
 - Number
+- Math Object
+- Date Object
+- Array
+- Object
