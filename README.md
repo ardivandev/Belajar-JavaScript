@@ -19,3 +19,4 @@
 - If-Else
 - Switch Case
 - Looping
+- Function
