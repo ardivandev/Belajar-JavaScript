@@ -1,4 +1,5 @@
 const inputColor = document.getElementById("inputcolor").addEventListener("input", (event) => {
+  console.log(event);
   let selectedColor = event.target.value;
 
   // update the color text
