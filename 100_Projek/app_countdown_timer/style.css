@@ -1,0 +1,55 @@
+* {
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.box-countdown-timer {
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  max-width: 450px;
+  width: 90%;
+  text-align: center;
+}
+
+.box-countdown-timer h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  /* text-decoration: underline; */
+}
+
+.box-countdown-timer .countdown {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.box-countdown-timer .input-container input {
+  padding: 7px 15px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.box-countdown-timer .input-container input:focus {
+  outline: 1px solid blue;
+}
+
+button {
+  padding: 7px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.7;
+}
